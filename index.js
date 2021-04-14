@@ -1,10 +1,10 @@
-const express = require('express')
+const express = require('express');
 const MongoClient = require('mongodb').MongoClient;
-const bodyParser = require('body-parser')
-const fileUpload = require('express-fileupload')
-const fs = require('fs-extra')
-const cors = require('cors')
-const app = express()
+const bodyParser = require('body-parser');
+const fileUpload = require('express-fileupload');
+const fs = require('fs-extra');
+const cors = require('cors');
+const app = express();
 
 app.use(bodyParser.json())
 app.use(cors())
